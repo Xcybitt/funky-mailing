@@ -94,3 +94,24 @@
   - type: Clothing
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/hecu.rsi
 
+- type: entity  #just stealing the BSO's fit and relabeling it to be HoS'
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitBlueHoS
+  name: head of security's blue jumpsuit
+  description: A short-sleeved grey and blue jumpsuit, made out of a sturdy material. This oddly smells of plasma and laser burns.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_officer.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_officer.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitBlueHoSShirt
+  name: head of security's blue shirt
+  description: An official security uniform. Pretty safe and pretty busy. You definitely didn't take this off someone's corpse.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_shirt.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_shirt.rsi

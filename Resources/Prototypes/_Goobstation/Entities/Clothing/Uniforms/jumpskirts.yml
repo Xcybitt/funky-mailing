@@ -53,3 +53,14 @@
     sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/mailman.rsi
   - type: Clothing
     sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/mailman.rsi
+
+- type: entity #still just taking the BSO's fit
+  parent: [ClothingUniformSkirtBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtBlueHoS
+  name: head of security's blue jumpskirt
+  description: A short-sleeved grey and blue jumpskirt, made out of a sturdy material. This oddly smells of plasma and laser burns.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/blueshield_officer.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/blueshield_officer.rsi

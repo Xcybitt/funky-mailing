@@ -1509,6 +1509,9 @@
   - HeadofSecurityTurtleneckSkirt
   - HeadofSecurityFormalSuit
   - HeadofSecurityFormalSkirt
+  - HeadOfSecurityBlueShirt
+  - HeadofSecurityBlueJumpskirt
+  - HeadOfSecurityBlueJumpsuit
 
 - type: loadoutGroup
   id: HeadofSecurityNeck
@@ -1603,6 +1606,7 @@
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
   - TrooperUniform
+  - SecurityBlueShirt
 
 - type: loadoutGroup
   id: SecurityBackpack

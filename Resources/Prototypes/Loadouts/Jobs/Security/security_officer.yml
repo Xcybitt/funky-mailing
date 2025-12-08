@@ -130,6 +130,12 @@
     jumpsuit: ClothingUniformJumpskirtSeniorOfficer
   groupBy: "jumpskirt"
 
+- type: loadout
+  id: SecurityBlueShirt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+  groupBy: "jumpsuit"
+
 # Back
 - type: loadout
   id: SecurityBackpack
